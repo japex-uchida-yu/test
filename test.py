@@ -63,5 +63,9 @@ def main():
     result_multiply = multiply_numbers(num1, num2)
     print(f"掛け算: {num1} × {num2} = {result_multiply}")
 
+    # 割り算テスト
+    result_divide = divide_numbers(num1, num2)
+    print(f"割り算: {num1} ÷ {num2} = {result_divide}")
+
 if __name__ == "__main__":
     main()
